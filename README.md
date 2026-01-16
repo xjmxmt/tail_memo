@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="visualization/frontend/public/tailai_logo.png" alt="TailAI Logo" width="80">
-  <h1 align="center">Tailmemo</h1>
+  <img src="visualization/frontend/public/tailai_logo.png" alt="TailAI Logo" width="40"> <b>Tailmemo</b>
   <p align="center">
     <strong>AI 长期记忆管理系统 - 小说、戏剧、电影剧本创作 | AI Long-term Memory Management System - For novel, play, screen writing. </strong>
   </p>
@@ -8,7 +7,7 @@
     <em>Inspired by <a href="https://github.com/mem0ai/mem0">mem0</a></em>
   </p>
 </p>
-[English](## Overview) | [中文](## 概述)
+[English](##Overview) | [中文](##概述)
 
 ## Overview
 
