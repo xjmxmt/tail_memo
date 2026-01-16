@@ -13,7 +13,7 @@ class PostgreSQLManager:
         self,
         host: str = "localhost",
         port: int = 5432,
-        database: str = "mem0",
+        database: str = "mydatabase",
         user: str = "postgres",
         password: str = "",
     ):

@@ -18,7 +18,7 @@ from tailmemo.configs.prompts import (
     PROCEDURAL_MEMORY_SYSTEM_PROMPT,
     get_update_memory_messages,
 )
-from tailmemo.storage.sqlite import SQLiteManager
+from tailmemo.storage.postgresql import PostgreSQLManager
 from tailmemo.utils.factory import (
     EmbedderFactory,
     GraphStoreFactory,
@@ -168,7 +168,13 @@ class Memory:
             self.config.vector_store.provider, self.config.vector_store.config
         )
         self.llm = LlmFactory.create(self.config.llm.provider, self.config.llm.config)
-        self.db = SQLiteManager(self.config.history_db_path)
+        self.db = PostgreSQLManager(
+            host=self.config.vector_store.config.host,
+            port=self.config.vector_store.config.port,
+            database=self.config.vector_store.config.dbname,
+            user=self.config.vector_store.config.user,
+            password=self.config.vector_store.config.password
+        )
         self.collection_name = self.config.vector_store.config.collection_name
         self.api_version = self.config.version
 
