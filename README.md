@@ -1,8 +1,6 @@
 <p align="center">
   <img src="visualization/frontend/public/tailai_logo.png" alt="TailAI Logo" width="80">
-  <p align="center">
-    AI 长期记忆管理系统 - 小说、戏剧、电影剧本创作 | AI Long-term Memory Management System - For novel, play, screen writing.
-  </p>
+  <p align="center">AI Long-term Memory Management System - For novel, play, screen writing.</p>
 </p>
 
 <p align="center">
@@ -179,7 +177,14 @@ tailmemo/
 
 This project is inspired by and references the excellent work of [mem0](https://github.com/mem0ai/mem0).
 
----
+<p align="center">
+  <img src="visualization/frontend/public/tailai_logo.png" alt="TailAI Logo" width="80">
+  <p align="center">AI 长期记忆管理系统 - 小说、戏剧、电影剧本创作。</p>
+</p>
+
+<p align="center">
+  <a href="#overview">English</a> | <a href="#概述">中文</a>
+</p>
 
 ## 概述
 
